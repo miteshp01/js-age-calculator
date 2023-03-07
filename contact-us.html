@@ -1,112 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <title>Age calculator</title>
-  </head>
-  <body>
-    <nav class="navbar nav-bg">
-      <ul class="nav-list" id="navigation-list">
-        <div class="logo" id="logo">
-          <a href="./"
-            ><img src="./images/logo.png" alt="Age calculator" class="my-logo"
-          /></a>
-        </div>
-        <li><a href="./" id="homepage">Home</a></li>
-        <li><a href="./about.html" id="homepage">About</a></li>
-        <li><a href="./contact-us.html" id="homepage">Contact Us</a></li>
-        <li><a href="./services.html" id="homepage">Services</a></li>
-      </ul>
-      <!-- <div class="right-nav" id="search-bar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <title>Age calculator</title>
+</head>
+
+<body>
+  <nav class="navbar nav-bg">
+    <ul class="nav-list" id="navigation-list">
+      <div class="logo" id="logo">
+        <a href="./"><img src="./images/logo.png" alt="Age calculator" class="my-logo" /></a>
+      </div>
+      <li><a href="./" id="homepage">Home</a></li>
+      <li><a href="./about.html" id="homepage">About</a></li>
+      <li><a href="./contact-us.html" id="homepage">Contact Us</a></li>
+      <li><a href="./services.html" id="homepage">Services</a></li>
+    </ul>
+    <!-- <div class="right-nav" id="search-bar">
             <input type="text" placeholder="Search" id="search" />
             <button class="btn btn-search">Search</button>
         </div> -->
-      <div class="input-group right-nav" id="search-bar">
-        <input
-          type="search"
-          class="form-control rounded"
-          placeholder="Search"
-          aria-label="Search"
-          aria-describedby="search-addon"
-        />
-        <button type="button" class="btn btn-primary">
-          <i class="fa fa-search" aria-hidden="true"></i>
-        </button>
-      </div>
-    </nav>
-    <section class="first-section">
-      <div class="first-content">
-        <div class="main-content container contact-us-content">
-          <h1 class="contact-us">Contact Us</h1>
-          <div class="cu-content">
-          <div class="right-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-          <div class="left-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-        </div>
-        </div>
-      </div>
-    </section>
+    <div class="input-group right-nav" id="search-bar">
+      <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+        aria-describedby="search-addon" />
+      <button type="button" class="btn btn-primary">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </div>
+  </nav>
+  <section class="first-section">
+    <div class="first-content">
+      <div class="main-content container contact-us-content">
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
 
-    <footer>
-      <div class="footer-content">
-        <h3>{MiTeSh pArMar}</h3>
-        <p>
-          This site is created by MiTeSh pArMar and its a Age calculating
-          website where you can you calcualte you age in very simpe way.
-        </p>
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-linkedin-square"></i></a>
-          </li>
+          <!--Section heading-->
+          <h1 class="contact-us">Contact Us</h1>
+          <!--Section description-->
+          <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact
+            us directly. Our team will come back to you within
+            a matter of hours to help you.</p>
+
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="name" name="name" class="form-control">
+                      <label for="name" class="">Your name</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="email" name="email" class="form-control">
+                      <label for="email" class="">Your email</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <input type="text" id="subject" name="subject" class="form-control">
+                      <label for="subject" class="">Subject</label>
+                    </div>
+                  </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                    <div class="md-form">
+                      <textarea type="text" id="message" name="message" rows="2"
+                        class="form-control md-textarea"></textarea>
+                      <label for="message">Your message</label>
+                    </div>
+
+                  </div>
+                </div>
+                <!--Grid row-->
+
+              </form>
+
+              <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              </div>
+              <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-map-marker"></i>
+                  <p>Mumbai - 400055, Maharashtra, India</p>
+                </li>
+
+                <li><i class="fa fa-phone mt-4"></i>
+                  <p>+91 9870203588</p>
+                </li>
+
+                <li><i class="fa fa-envelope mt-4"></i>
+                  <p>miteshp01@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+
+        </section>
+        <!--Section: Contact v.2-->
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <h3>{MiTeSh pArMar}</h3>
+      <p>
+        This site is created by MiTeSh pArMar and its a Age calculating
+        website where you can you calcualte you age in very simpe way.
+      </p>
+      <ul class="socials">
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy; 2023 <a href="#">MiTeSh pArMar</a></p>
+      <div class="footer-menu">
+        <ul class="f-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact-us.html">Contact</a></li>
+          <li><a href="">Services</a></li>
         </ul>
       </div>
-      <div class="footer-bottom">
-        <p>copyright &copy; 2023 <a href="#">MiTeSh pArMar</a></p>
-        <div class="footer-menu">
-          <ul class="f-menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact-us.html">Contact</a></li>
-            <li><a href="">Services</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <script src="./js/script.js"></script>
-    <!-- <script
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+  <!-- <script
       defer
       src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
       integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
       crossorigin="anonymous"
     ></script> -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
